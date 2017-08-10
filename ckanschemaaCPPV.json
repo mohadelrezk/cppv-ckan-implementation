@@ -1,0 +1,319 @@
+{
+  "scheming_version": 1,
+  "dataset_type": "dataset",
+  "about": "A reimplementation of the default CKAN dataset schema",
+  "about_url": "http://github.com/ckan/ckanext-scheming",
+  "dataset_fields": [
+    {
+      "field_name": "title",
+      "label": "Policy Name",
+      "preset": "title",
+      "form_placeholder": "Policy Name"
+    },
+    {
+      "field_name": "name",
+      "label": "URL",
+      "preset": "dataset_slug",
+      "form_placeholder": "eg. my-dataset"
+    },
+  {
+      "field_name": "notes",
+      "label": "Policy Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "eg. Some useful notes about the Policy",
+	"display_property ": "dct:description"
+    },
+	{
+      "field_name": "Policy_level",
+      "label": "Policy Level",
+      "form_placeholder": "eg. National",
+      "display_property": "cppv:level"
+    },
+ {
+      "field_name": "Policy_country",
+      "label": "Policy Country",
+      "form_placeholder": "eg. Ireland",
+      "display_property": "temperory:country"
+    },
+ {
+      "field_name": "Policy_language",
+      "label": "Policy Language",
+      "form_placeholder": "eg. English",
+      "display_property": "temporary:lang"
+    },
+
+{
+   "field_name": "Policy_startDate",
+      "label": "Policy Start Date",
+ 	"display_property": "cppv:startDate",
+	"preset": "date"
+},
+    {
+      "field_name": "PolicyDocument_name",
+      "label": "Policy Document Name",
+      "preset": "title",
+      "form_placeholder": "Policy Document Name",
+        "display_property ": "fabio:PolicyDocument",
+        "display_property ": "foaf:name"
+    },
+  {
+      "field_name": "PolicyDocument_description",
+      "label": "Policy Document Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "eg. Some useful notes about the Policy Document",
+        "display_property ": "dct:description"
+    },
+         {
+      "field_name": "PolicyDocument_filetype",
+      "label": "Policy Document File Type",
+      "form_placeholder": "eg. pdf",
+      "display_property": "cppv:filetype"
+    },
+
+    {
+      "field_name": "PolicyDocument_url",
+      "label": "Policy Document URL",
+	"form_placeholder": "Policy Document URL",
+	"display_snippet": "link.html",
+	 "display_property ": "schema:url"
+    },
+{
+
+  
+      "field_name": "Vision_description",
+      "label": "Vision(s)",
+	"preset": "title",     
+ 	"form_snippet": "markdown.html",
+      "form_placeholder": "Policy Vision",
+        "display_property ": "dct:description",
+	"display_property ": "cppv:Vision"
+},
+
+{
+
+
+      "field_name": "Objective_description",
+      "label": "Objective(s)",
+	"preset": "title",   
+   	"form_snippet": "markdown.html",
+      "form_placeholder": "Policy Objective",
+        "display_property ": "dct:description",
+	"display_property ": "objectives-ont:Objective"
+},
+
+
+{
+      "field_name": "Sector_euName",
+      "label": "Sector EU Name",
+      "preset": "title",
+      "form_placeholder": "Policy Sector EU Name",
+      "display_property ": "cppv:euName",
+	"display_property ": "cppv:Sector"
+    },
+{
+      "field_name": "Sector_localName",
+      "label": "Sector Local Name",
+      "form_placeholder": "Policy Sector Local Name",
+      "display_property ": "cppv:localName"
+    },
+{
+        "field_name": "Sector_description",
+        "label": "Sector Description",
+        "form_snippet": "markdown.html",
+        "form_placeholder": "The Sector that is Impacting and Impacted by the Public Policy",
+        "display_property ": "dct:description"
+},
+{
+      "field_name": "OversightEntity_name",
+      "label": "Oversight Entity Name(s)",
+	"preset":"title",
+      "form_placeholder": "Main Oversight Entity Name",
+      "display_property ": "cppv:OversightEntity",
+	"display_property ": "foaf:name"
+    },
+{
+        "field_name": "OversightEntity_description",
+        "label": "OversightEntity Description",
+        "form_snippet": "markdown.html",
+        "form_placeholder": "The Main Entity that Oversees the Public Policy",
+        "display_property ": "dct:description"
+},
+{
+	"field_name": "Programme_description",
+      	"label": "Programme(s)",
+	"preset": "title",     
+ 	"form_snippet": "markdown.html",
+      	"form_placeholder": "The Programme that Implements the Policy",
+        "display_property ": "dct:description",
+        "display_property ": "cppv:Programme",
+	"display_property ": "cpsv:PublicService"
+},
+{
+	"field_name": "Plan_description",
+      	"label": "Plan",
+        "preset": "title",
+ 	"form_snippet": "markdown.html",
+      	"form_placeholder": "The Plan that Organizes the Programme Implementation",
+        "display_property ": "dct:description",
+        "display_property ": "prov:Plan"
+},
+{
+      "field_name": "GuidingFramework_Regulation_name",
+      "label": "Regulation Name(s)",
+      "form_placeholder": "Guiding Regulation Name",
+      "display_property ": "cppv:Regulation"
+ },
+{
+        "field_name": "GuidingFramework_Regulation_description",
+        "label": "Guiding Regulation Description",
+        "form_snippet": "markdown.html",
+        "form_placeholder": "The Guiding Framework of type Regulation that governs the Public Policy",
+        "display_property ": "dct:description"
+},
+
+{
+      "field_name": "GuidingFramework_GuidingPrinciple_name",
+      "label": "Guiding Principle Name(s)",
+      "form_placeholder": "Guiding Principle Name",
+      "display_property ": "cppv:GuidingPrinciple"
+ },
+{
+        "field_name": "GuidingFramework_GuidingPrinciple_description",
+        "label": "Guiding Principle Description",
+        "form_snippet": "markdown.html",
+        "form_placeholder": "The Guiding Framework of type Guiding Principle that governs the Public Policy",
+        "display_property ": "dct:description"
+},
+{
+      "field_name": "Stakeholder_name",
+      "label": "Stakeholder Name(s)",
+      "form_placeholder": "Stakeholder Name",
+      "display_property ": "cppv:Stakeholder"
+ },
+
+{
+        "field_name": "Stakeholder_description",
+        "label": "Stakeholder Description(s)",
+        "form_snippet": "markdown.html",
+        "form_placeholder": "Main Stakeholder influenced by the Public Policy",
+        "display_property ": "dct:description"
+        
+},
+
+{
+
+ "field_name": "Stakeholder_type",
+        "label": "Stakeholder type(s)",
+        "display_property ": "cppv:type",
+        "form_placeholder": "Academia, Governemt or Community",
+        "help_text": "Make and model",
+      "help_inline": true,
+      "preset": "select",
+      "choices": [
+        {
+          "value": "academia",
+          "label": "Academia"
+        },
+        {
+          "value": "governemt",
+          "label": "Governemt"
+        },
+        {
+          "value": "community",
+          "label": "Community"
+        }
+      ]
+        
+},
+{
+        "field_name": "Institutional_structure_description",
+        "label": "Institutional Structure Description",
+        "form_snippet": "markdown.html",
+        "form_placeholder": "Institutional Structure that is composed of the Stakeholders and Executes Programms",
+        "display_property ": "dct:description"
+},
+
+    {
+      "field_name": "owner_org",
+      "label": "Policy Published By",
+      "preset": "dataset_organization"
+    },
+     {
+      "field_name": "tag_string",
+      "label": "Tags",
+      "preset": "tag_string_autocomplete",
+      "form_placeholder": "eg. economy, mental health, government"
+    },
+     {
+      "field_name": "license_id",
+      "label": "License",
+      "form_snippet": "license.html",
+      "help_text": "License definitions and additional information can be found at http://opendefinition.org/"
+    },{
+      "field_name": "url",
+      "label": "Source",
+      "form_placeholder": "http://example.com/dataset.json",
+      "display_property": "foaf:homepage",
+      "display_snippet": "link.html"
+    },
+    {
+      "field_name": "version",
+      "label": "Version",
+      "validators": "ignore_missing unicode package_version_validator",
+      "form_placeholder": "1.0"
+    },
+    {
+      "field_name": "author",
+      "label": "Author",
+      "form_placeholder": "Joe Bloggs",
+      "display_property": "dc:creator"
+    },
+    {
+      "field_name": "author_email",
+      "label": "Author Email",
+      "form_placeholder": "joe@example.com",
+      "display_property": "dc:creator",
+      "display_snippet": "email.html",
+      "display_email_name_field": "author"
+    },
+    {
+      "field_name": "maintainer",
+      "label": "Maintainer",
+      "form_placeholder": "Joe Bloggs",
+      "display_property": "dc:contributor"
+    },
+    {
+      "field_name": "maintainer_email",
+      "label": "Maintainer Email",
+      "form_placeholder": "joe@example.com",
+      "display_property": "dc:contributor",
+      "display_snippet": "email.html",
+      "display_email_name_field": "maintainer"
+    }
+    
+      
+  ],
+  "resource_fields": [
+    {
+      "field_name": "url",
+      "label": "URL",
+      "preset": "resource_url_upload"
+    },
+    {
+      "field_name": "name",
+      "label": "Name",
+      "form_placeholder": "eg. January 2011 Gold Prices"
+    },
+    {
+      "field_name": "description",
+      "label": "Description",
+      "form_snippet": "markdown.html",
+      "form_placeholder": "Some useful notes about the data"
+    },
+    {
+      "field_name": "format",
+      "label": "Format",
+      "preset": "resource_format_autocomplete"
+    }
+  ]
+}
