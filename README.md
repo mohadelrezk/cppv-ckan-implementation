@@ -5,10 +5,8 @@ cppv ckan implementation (schema customization according to cppv standards)
 
 
 
-Installation
+Installation [CKAN Scheming]
 -------------
-[A] CKAN Scheming
-===========
 [1] Clone and Install:
 ```
 $cd /git
