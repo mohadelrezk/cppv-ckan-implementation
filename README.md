@@ -71,7 +71,7 @@ Screen Samples
 
 ![img](screen_samples/s1.png)
 
-![img](screen_samples/s3.png)
+![img](screen_samples/s3.jpg)
 
 ![img](screen_samples/s4.png)
 
