@@ -98,4 +98,6 @@ ENV/
 /site
 
 # mypy
+.DS_Store
+*/.DS_Store
 .mypy_cache/
