@@ -4,12 +4,17 @@ Core Public Policy Vocabulary CKAN Implementation
 cppv ckan implementation (schema customization according to cppv standards)
 
 A- documentation: 
+
 http://vmogi01.deri.ie/egovcppv/ 
 
 B- examble:
+
 http://vmrtpa05.deri.ie:8080/dataset
+
 C- publications:
+
 [1] http://dl.acm.org/citation.cfm?id=3047366
+
 [2] in press
 
 
