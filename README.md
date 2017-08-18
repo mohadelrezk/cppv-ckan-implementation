@@ -65,11 +65,16 @@ scheming.dataset_fallback = false
 
 ```
 Screen Samples
-———————
+----------
+
 ![img](screen_samples/s2.png)
+
 ![img](screen_samples/s1.png)
+
 ![img](screen_samples/s3.png)
+
 ![img](screen_samples/s4.png)
+
 ![img](screen_samples/s6.png)
 
 
