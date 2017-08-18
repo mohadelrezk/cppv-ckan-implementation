@@ -1,7 +1,7 @@
 Core Public Policy Vocabulary CKAN Implementation
 ===========================
 
-cppv ckan implementation (schema customization according to cppv standards)
+cppv ckan implementation (schema customization according to cppv standards to store Public Policies)
 
 A- documentation: 
 
